@@ -7,6 +7,7 @@ import Link from 'next/link'
 const name = 'Yorinton'
 export const siteTitle = 'Next.js Sample Website'
 
+// childrenには自動的にLayoutタグで囲まれた要素が入る(HeadやScriptなど以外)※ vueでいうslot的な
 export default function Layout({ children, home }) {
     return (
         <div className={styles.container}>

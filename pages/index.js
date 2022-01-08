@@ -5,6 +5,7 @@ import utilStyles from '../styles/utils.module.css'
 
 export default function Home() {
   return (
+    // homeはLayoutコンポーネントへのprops
     <Layout home>
       <Head>
         <title>{siteTitle}</title>
